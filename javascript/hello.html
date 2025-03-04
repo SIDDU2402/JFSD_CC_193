@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h">Hello world</h1>
+    <button id="btn">Click me</button>
+    <script>
+        const h1 = document.querySelector('#h');
+        let count=0;
+        setInterval(() => {
+            count++;
+            h1.textContent = `Hello world ${count}`;
+        }, 1000);
+        const btn = document.querySelector('#btn');
+        btn.addEventListener('click', () => {
+            h1
+        });
+
+    </script>
+        
+
+    
+</script>
+</body>
+</html>
